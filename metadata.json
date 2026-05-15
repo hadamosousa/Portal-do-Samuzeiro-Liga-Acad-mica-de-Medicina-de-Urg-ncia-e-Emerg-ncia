@@ -1,0 +1,6 @@
+{
+  "name": "LAMURGEM Landing Page",
+  "description": "Plataforma de treinamento em Urgência e Emergência - Formosa/GO",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
