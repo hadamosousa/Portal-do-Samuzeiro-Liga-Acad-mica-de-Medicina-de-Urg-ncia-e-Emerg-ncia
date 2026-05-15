@@ -11,6 +11,8 @@ import { motion } from 'motion/react';
 
 // Components
 import Sitemap from './components/Sitemap';
+import Login from './components/Login';
+import Dashboard from './components/Portal/Dashboard';
 
 /**
  * Utility for detecting Preview/Cloud IDE environments
@@ -147,6 +149,8 @@ export default function App() {
 
         <Route path="/lp-video" element={<LPVideo />} />
         <Route path="/sitemap" element={<Sitemap />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/portal/*" element={<Dashboard />} />
 
         {/* Catch-all fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />
